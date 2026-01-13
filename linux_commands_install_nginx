@@ -1,10 +1,11 @@
 sudo su
 apt-get -y update
 apt-get -y install nginx
+http://20.63.92.174/ (public ip)
 echo "Hello World"
-echo "Getting started with Azure Virtual Machines"
+echo "Getting started with Azure Virtual Machines" > /var/www/html/index.html
  
 hostname
 echo "$(hostname)"
-echo "Welcome to in28minutes $(whoami)" > /var/www/html/index.html
-echo "Welcome to in28minutes $(hostname)" > /var/www/html/index.html
+echo "Welcome to yamlearning $(whoami)" > /var/www/html/index.html
+echo "Welcome to yamlearning $(hostname)" > /var/www/html/index.html
