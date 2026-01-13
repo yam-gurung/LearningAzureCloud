@@ -1,0 +1,10 @@
+sudo su
+apt-get -y update
+apt-get -y install nginx
+echo "Hello World"
+echo "Getting started with Azure Virtual Machines"
+ 
+hostname
+echo "$(hostname)"
+echo "Welcome to in28minutes $(whoami)" > /var/www/html/index.html
+echo "Welcome to in28minutes $(hostname)" > /var/www/html/index.html
